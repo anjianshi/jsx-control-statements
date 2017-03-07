@@ -1,7 +1,7 @@
 {
-  "name": "jsx-control-statements",
+  "name": "hg-jsx-control-statements",
   "version": "3.1.5",
-  "description": "Neater control statements (if/for) for jsx",
+  "description": "Neater control statements (if/for) for jsx(forked from Alex Gilleran's jsx-control-statements)",
   "author": {
     "name": "Alex Gilleran",
     "email": "alex@alexgilleran.com"
@@ -9,10 +9,10 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexGilleran/jsx-control-statements"
+    "url": "https://github.com/anjianshi/jsx-control-statements"
   },
   "bugs": {
-    "url": "https://github.com/AlexGilleran/jsx-control-statements/issues"
+    "url": "https://github.com/anjianshi/jsx-control-statements/issues"
   },
   "keywords": [
     "react",

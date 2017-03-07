@@ -59,9 +59,12 @@ module.exports = function(babel) {
     addMapParam(types, mapParams, attributes, ATTRIBUTES.EACH);
     addMapParam(types, mapParams, attributes, ATTRIBUTES.INDEX);
 
-    return types.callExpression(
+    return return types.callExpression(
       types.memberExpression(
-        attributes[ATTRIBUTES.OF].value.expression,
+        types.callExpression(
+          types.identifier("Array.from"),
+          [attributes[ATTRIBUTES.OF].value.expression]
+        ),
         types.identifier("map")
       ),
       [
