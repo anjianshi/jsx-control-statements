@@ -1,3 +1,5 @@
+相比原版，For 现在支持处理 iterator 了，但是要求运行环境里必须有 Array.from() 方法
+
 # JSX Control Statements
 
 [![Build Status](https://travis-ci.org/AlexGilleran/jsx-control-statements.svg?branch=master)](https://travis-ci.org/AlexGilleran/jsx-control-statements) [![Coverage Status](https://coveralls.io/repos/AlexGilleran/jsx-control-statements/badge.svg?branch=master&service=github)](https://coveralls.io/github/AlexGilleran/jsx-control-statements?branch=master) [![npm version](https://img.shields.io/npm/v/jsx-control-statements.svg?style=flat)](https://www.npmjs.com/package/jsx-control-statements)
